@@ -1,8 +1,16 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+main {
+  background-color: var(--very-light-grayish-blue);
+  background-image: url(../../images/bg-top.svg), url(../../images/bg-bottom.svg);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto; 
+  height: 100vh; 
+  width: 100vw;
+  display: flex;
+  padding: 4rem 0;
 }
 
+h1 {
+  color: var(--grayish-blue);
+}
 

@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <main>
-        <h1>Our pricing</h1>
+        <h1>Our Pricing</h1>
       </main> 
     </>
   )

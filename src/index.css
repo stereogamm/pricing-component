@@ -10,10 +10,13 @@
 }
 
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box; /*to calculate the elements sizes correctly incl margins and paddings*/
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  max-width: 1440px;
+  /* padding: 1rem; */
+  text-align: center;
 }
 
 :root { /*we use root pseudoclass to set global variables*/
@@ -23,6 +26,6 @@
   --grayish-blue: hsl(233, 13%, 49%);
   --dark-grayish-blue: hsl(232, 13%, 33%);
   --font-size: 16px;
-  --font-weigth: 700;
+  --font-weight: 700;
 }
 
