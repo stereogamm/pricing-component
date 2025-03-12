@@ -1,4 +1,31 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: "Montserrat Italic";
+  src: url("../src/styles/fonts/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic; 
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../src/styles/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; /*to calculate the elements sizes correctly incl margins and paddings*/
+  font-family: "Montserrat", sans-serif;
+  max-width: 1440px;
+  /* padding: 1rem; */
+  text-align: center;
+}
+
+:root { /*we use root pseudoclass to set global variables*/
+  --linear-gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
+  --very-light-grayish-blue: hsl(240, 78%, 98%);
+  --light-grayish-blue: hsl(234, 14%, 74%);
+  --grayish-blue: hsl(233, 13%, 49%);
+  --dark-grayish-blue: hsl(232, 13%, 33%);
+  --font-size: 16px;
+  --font-weight: 700;
 }
 
