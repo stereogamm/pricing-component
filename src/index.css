@@ -13,18 +13,20 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box; /*to calculate the elements sizes correctly incl margins and paddings*/
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif, monospace;
   max-width: 1440px;
-  /* padding: 1rem; */
   text-align: center;
 }
 
 :root { /*we use root pseudoclass to set global variables*/
   --linear-gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
-  --very-light-grayish-blue: hsl(240, 78%, 98%);
+  --very-light-grayish-blue: hsl(240, 89%, 96%);
   --light-grayish-blue: hsl(234, 14%, 74%);
   --grayish-blue: hsl(233, 13%, 49%);
   --dark-grayish-blue: hsl(232, 13%, 33%);
+  --light-card-color: hsl(0, 0%, 100%);
+  --shadow-dark: 162, 173, 208;
+  --shadow-light: 255, 255, 255;
   --font-size: 16px;
   --font-weight: 700;
 }
