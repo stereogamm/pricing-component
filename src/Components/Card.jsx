@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 function Card() {
     return (
         <>
@@ -12,6 +14,7 @@ function Card() {
                 <hr />
                 <div className="info__block">Sent Up to 3 GB</div>
                 <hr />
+                <Button />
             </article>
         </div>
     </>
