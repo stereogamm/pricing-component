@@ -50,6 +50,12 @@ h2 {
   margin: 1rem;
 }
 
+.price__block::before {
+  content:"$";
+  font-size: 2rem;
+  margin: 1rem;;
+}
+
 hr {
   all: unset;
   border: none;
