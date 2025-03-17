@@ -1,7 +1,9 @@
 import '../styles/App.css';
+import data from './data';
 
 import Card from './Card';
 import Toggle from './Toggle';
+
 
 function App() {
   
@@ -10,7 +12,7 @@ function App() {
       <main>
         <h1>Our Pricing</h1>
         <Toggle />
-        <Card />
+        <Card data={data}/>
       </main> 
     </>
   )
