@@ -85,7 +85,7 @@ hr {
   max-width: 19rem;
   min-height: 2.5rem;
   max-height: 3rem;
-  background: none;
+  background: transparent;
   font-family: "Montserrat";
   font-weight: 700;
   color: var(--button);
@@ -94,6 +94,15 @@ hr {
   cursor: pointer;
   text-transform: uppercase;
   font-size: 0.8rem;
+  transition-property: background, color,transform;
+  transition-duration: .7s, .7s, .7s;
+  transition-timing-function: ease-in-out, linear, ease;
+}
+
+.more__button:hover {
+  background: var(--light-button);
+  color: var(--font-light-color);
+  transform: scale(103%);
 }
 
 .more__button:focus-visible {
