@@ -19,10 +19,11 @@
 }
 
 :root { /*we use root pseudoclass to set global variables*/
-  --linear-gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  --linear-gradient: linear-gradient(to top, hsl(237, 54%, 87%), hsl(237, 74%, 80%));
+  --card-gradient: linear-gradient(to bottom, hsl(0, 0%, 100%), hsl(235, 35%, 80%));
   --font-light-color: hsl(240, 100%, 100%);
   --light-button: hsl(236, 72%, 79%);
-  --very-light-grayish-blue: hsl(240, 89%, 96%);
+  --very-light-grayish-blue: hsl(258, 56%, 96%);
   --light-grayish-blue: hsl(234, 14%, 74%);
   --grayish-blue: hsl(233, 13%, 49%);
   --dark-grayish-blue: hsl(232, 13%, 33%);

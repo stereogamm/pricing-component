@@ -1,4 +1,4 @@
-main {
+.main {
   background-color: var(--very-light-grayish-blue);
   background-image: url(../../images/bg-top.svg), url(../../images/bg-bottom.svg);
   background-position: right top, left bottom;
@@ -20,21 +20,40 @@ h1 {
 .card__wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .price__card {
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  background-color: var(--light-card-color);
+  background-color: var(--linear-gradient);
   min-width: 20rem;
   max-width: 45rem;
   min-height: 30rem;
   max-height: 35rem;
   border-radius: 10px;
-  box-shadow: -10px -10px 30px  rgba(var(--shadow-dark), 0.3), 
-              0px 0px 60px  rgba(var(--shadow-light), 0.6);
+  box-shadow:
+  -10px -10px 40px  rgba(var(--shadow-dark), 0.5), 
+  10px -10px 40px  rgba(var(--shadow-dark), 0.5),
+  0px 10px 30px  rgba(var(--shadow-light), 0.7);
+  transition-property: transform, background-color;
+  transition-duration: .6s, .6s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.price__card:hover {
+  transform: scale(104%);
+  background-color: white;
+  transition-property: transform, background-color;
+  transition-duration: .6s, .6s ;
+  transition-timing-function: ease-in-out, ease-in-out;
+  cursor: default;
+}
+
+.price__card:focus-visible {
+  outline: 3px solid rgb(102, 83, 191);
 }
 
 h2 {
@@ -63,7 +82,7 @@ hr {
   width: 100%;
   min-width: 280px;
   height: 1px;
-  border-top: 1px solid hsl(230, 11%, 89%);
+  border-top: 1px solid hsl(225, 5%, 83%);
 }
 
 .info__block {
@@ -90,7 +109,7 @@ hr {
   font-weight: 700;
   color: var(--button);
   border-radius: 5px;
-  border: 1px solid var(--button);
+  border: 1.5px solid var(--light-button);
   cursor: pointer;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -103,6 +122,13 @@ hr {
   background: var(--light-button);
   color: var(--font-light-color);
   transform: scale(103%);
+}
+
+.more__button:active {
+  transform: scale(100%);
+  background: var(--button);
+  border: var(--button);
+  color: var(--font-light-color);
 }
 
 .more__button:focus-visible {
@@ -147,7 +173,7 @@ hr {
 }
 
 .toggle__input:focus-visible + .toggle__slider {
-  outline: 3px solid rgb(47, 0, 255); 
+  outline: 3px solid rgb(102, 83, 191);
 }
 
 .toggle__slider {

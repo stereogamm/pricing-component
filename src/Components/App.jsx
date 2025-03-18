@@ -9,7 +9,7 @@ function App() {
   
   return (
     <>
-      <main>
+      <main className='main'>
         <h1>Our Pricing</h1>
         <Toggle />
         <Card data={data}/>
