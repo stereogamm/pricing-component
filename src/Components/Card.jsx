@@ -4,7 +4,7 @@ function Card({ data }) {
   return (
     <div className="card__wrapper">
       {data.map((card) => (
-        <article className="price__card">
+        <article tabIndex="0" className="price__card">
           <h2>{card.header}</h2>
           <div className="price__block">{card.price}</div>
           <hr />

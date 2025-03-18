@@ -52,6 +52,10 @@ h1 {
   cursor: default;
 }
 
+.price__card:focus-visible {
+  outline: 3px solid rgb(102, 83, 191);
+}
+
 h2 {
   color: var(--grayish-blue);
   margin: 1rem;
@@ -105,7 +109,7 @@ hr {
   font-weight: 700;
   color: var(--button);
   border-radius: 5px;
-  border: 1px solid var(--button);
+  border: 1.5px solid var(--light-button);
   cursor: pointer;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -118,6 +122,13 @@ hr {
   background: var(--light-button);
   color: var(--font-light-color);
   transform: scale(103%);
+}
+
+.more__button:active {
+  transform: scale(100%);
+  background: var(--button);
+  border: var(--button);
+  color: var(--font-light-color);
 }
 
 .more__button:focus-visible {
@@ -162,7 +173,7 @@ hr {
 }
 
 .toggle__input:focus-visible + .toggle__slider {
-  outline: 3px solid rgb(47, 0, 255); 
+  outline: 3px solid rgb(102, 83, 191);
 }
 
 .toggle__slider {
