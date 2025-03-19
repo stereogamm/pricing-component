@@ -1,11 +1,11 @@
-function Toggle({ onChange }) {
+function Toggle({ toggleState }) {
   return (
     <>
       <label className="toggle">
         <input
           type="checkbox"
           className="toggle__input"
-          onChange={onChange}
+          onChange={toggleState}
         ></input>
         <span className="toggle__slider"></span>
       </label>

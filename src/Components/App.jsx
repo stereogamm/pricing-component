@@ -18,8 +18,8 @@ function App() {
     <>
       <main className="main">
         <h1>Our Pricing</h1>
-        <Toggle onChange={toggleState} />
-        <Card data={value ? monthlyData : annuallyData} />
+        <Toggle toggleState={toggleState} />
+        <Card data={value? monthlyData : annuallyData} />
       </main>
     </>
   );
