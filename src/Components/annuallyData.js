@@ -1,28 +1,28 @@
-const data = [
-    {
+const annuallyData = [
+  {
     header: "Basic",
-    price: 19.99,
+    price: 50,
     storage: 500,
-    units: 'GB',
+    units: "GB",
     userCount: 2,
     update: 3,
-},
-{
+  },
+  {
     header: "Professional",
-    price: 24.99,
+    price: 80,
     storage: 1,
-    units: 'TB',
+    units: "TB",
     userCount: 5,
     update: 10,
-},
-{
+  },
+  {
     header: "Master",
-    price: 39.99,
+    price: 99,
     storage: 2,
-    units: 'TB',
+    units: "TB",
     userCount: 10,
     update: 20,
-}
+  },
 ];
 
-export default data;
+export default annuallyData;

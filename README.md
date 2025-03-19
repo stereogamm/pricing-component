@@ -29,10 +29,10 @@ Users should be able to:
 
 ---
 
-### Screenshot
+### UI
 
-📍 In progress ...
-![](./screenshot.jpg)
+📍 
+![Pricing screenshot](./images/pricing.png)
 
 ---
 

@@ -1,12 +1,13 @@
+import CountUp from "react-countup";
 import Button from "./Button";
 
 function Card({ data }) {
   return (
     <div className="card__wrapper">
-      {data.map((card) => (
-        <article tabIndex="0" className="price__card">
+      {data.map((card, index) => (
+        <article  key={index} tabIndex="0" className="price__card">
           <h2>{card.header}</h2>
-          <div className="price__block">{card.price}</div>
+          <CountUp className="price__block" start={1} end={card.price} duration={2} />
           <hr />
           <div className="info__block">{card.storage} {card.units} storage</div>
           <hr />
