@@ -1,7 +1,7 @@
 const monthlyData = [
   {
     header: "Basic",
-    price: 4.99,
+    price: 4,
     storage: 500,
     units: "GB",
     userCount: 2,
@@ -9,7 +9,7 @@ const monthlyData = [
   },
   {
     header: "Professional",
-    price: 6.99,
+    price: 6,
     storage: 1,
     units: "TB",
     userCount: 5,
@@ -17,7 +17,7 @@ const monthlyData = [
   },
   {
     header: "Master",
-    price: 8.99,
+    price: 8,
     storage: 2,
     units: "TB",
     userCount: 10,
