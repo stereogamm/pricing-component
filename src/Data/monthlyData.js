@@ -26,3 +26,4 @@ const monthlyData = [
 ];
 
 export default monthlyData;
+
