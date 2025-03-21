@@ -8,18 +8,18 @@ import Toggle from "./Toggle";
 
 function App() {
   //true=annually payment, false=monthly payment
-  const [value, setValue] = useState(false);
-  
-  function toggleState(event) {
-    setValue(event.target.checked);
-  }
+  const [isYearly, setIsYearly] = useState(false);
 
+  function togglePayPlan(event) {
+    setIsYearly(event.target.checked);
+  }
+  
   return (
     <>
       <main className="main">
-        <h1>Our Pricing</h1>
-        <Toggle toggleState={toggleState} />
-        <Card data={value? monthlyData : annuallyData} />
+        <h1 tabIndex="0">Our Pricing</h1>
+        <Toggle isYearly={isYearly} togglePayPlan={togglePayPlan} />
+        <Card data={isYearly ? annuallyData : monthlyData}  />
       </main>
     </>
   );
