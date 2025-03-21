@@ -9,8 +9,6 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -30,40 +28,34 @@ Users should be able to:
 ---
 
 ### UI
+ 
+![Pricing screenshot](./images/web.png)
 
-📍 
-![Pricing screenshot](./images/pricing.png)
+---
+
+![Pricing screenshot](./images/mobile.png)
 
 ---
 
 ## My process 
-------
+---
 
 ### Built with
 
 💡 Semantic HTML5 markup  
 💡 CSS custom properties  
-💡 Flexbox      
+💡 [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties)      
 💡 [React](https://reactjs.org/) - library    
-💡 [Vite](https://vite.dev/) - project builder    
+💡 [Vite](https://vite.dev/) - project builder   
+💡 [Count up lib](https://www.npmjs.com/package/react-countup) - numbers library
 
 ---
 
 ### What I learned
 
-📍 In progress ...
-
----
-
-### Continued development
-
-📍 In progress ...
-
----
-
-### Useful resources
-
-📍 In progress ... 
+📍 Working with external libraries  
+📍 Creating and using custom UI components (e.g., toggle, price card)   
+📍 Refreshing media queries and adaptive layouts for different screen sizes devices
 
 ---
 
