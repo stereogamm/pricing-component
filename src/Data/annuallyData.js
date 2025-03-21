@@ -1,6 +1,6 @@
 const annuallyData = [
   {
-    header: "Basic",
+    header: "Basic pricing plan",
     price: 50,
     storage: 500,
     units: "GB",
@@ -8,7 +8,7 @@ const annuallyData = [
     update: 3,
   },
   {
-    header: "Professional",
+    header: "Professional pricing plan",
     price: 80,
     storage: 1,
     units: "TB",
@@ -16,7 +16,7 @@ const annuallyData = [
     update: 10,
   },
   {
-    header: "Master",
+    header: "Master pricing plan",
     price: 99,
     storage: 2,
     units: "TB",
